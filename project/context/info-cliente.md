@@ -4,6 +4,11 @@
 Relaxe, Revitalize e Sinta-se Bem.
 Encontre o equilíbrio entre corpo e mente com massagens terapêuticas personalizadas, feitas para melhorar sua qualidade de vida e trazer bem-estar duradouro
 
+Imagem da hero:
+mobile: `project/context/banner-mobile.jpg`
+tablet: `project/context/banner-tablet.jpg`
+notebook: `project/context/banner-desktop.jpg`
+
 ## Sobre Mim
 
 Olá, sou Raquel Seifert!
@@ -17,6 +22,8 @@ Cada atendimento é único e individualizado, focado em alcançar os melhores re
 Tratar cada cliente como único e respeitar sua individualidade é o que me inspira.
 
 Meu objetivo é transformar sua experiência com um toque terapêutico que vai além do corpo, trazendo conforto e equilíbrio para a mente também.
+
+Foto: `project/context/bio-raquel-seifert.jpg`
 
 ## Serviços
 
@@ -32,31 +39,48 @@ Estou aqui para ajudar!
 ### Massagem de Relaxamento
 Para aliviar o estresse e promover um relaxamento profundo
 
+Foto: `project/context/servico-massagem-relxamento.jpg`
+
 ### Massagem Terapêutica
 Ideal para tratar dores musculares e melhorar a mobilidade.
+
+Foto: `project/context/servico-massagem-terapeutica.jpg`
 
 ### Drenagem Linfática
 Para reduzir inchaços, melhorar a circulação e revitalizar o corpo.
 
+Foto: `project/context/servico-drenagem-linfatica.jpg`
+
 ### Massagem com Pedras Quentes
 Uma experiência relaxante que harmoniza corpo e mente.
+
+Foto: `project/context/servico-massagem-pedras-quentes.jpg`
 
 ### Massagem Crânio Facial
 Alívio para tensões e dores na cabeça, pescoço e rosto.
 
+Foto: `project/context/servico-massagem-cranio-facial.jpg`
+
 ### Reflexologia Podal
 Bem-estar geral através de pontos reflexos e cuidado com os pés
+
+Foto: `project/context/servico-reflexologia-podal.jpg`
 
 ### Massagem a Quatro Mãos
 Uma experiência sensorial única e luxuosa.
 
+Foto: `project/context/servico-massagem-quatro-maos.jpg`
+
 ### Massagem Desportiva
 A massagem desportiva é um tratamento especializado indicado para quem pratica atividades físicas regularmente, seja de forma profissional ou recreativa. Melhora o desempenho, previne lesões e acelera a recuperação muscular, reduzindo dores, edemas e tensões pós-treino.
+
+Foto: `project/context/servico-massagem-desportiva.jpg`
 
 ### Massagem Integrativa
 Para tratamentos complementares alternativo. É uma experiência terapêutica completa, criada para atender você de forma única e personalizada. Utilizando várias técnicas de massagem em uma única sessão, acelerando e potencializando os resultados mais rápidos.
 Mais que aliviar tensões, ela promove um cuidado profundo que integra corpo, mente e emoções.
 
+Foto: `project/context/servico-massagem-integrativa.jpg`
 
 ### Cuide de Você!
 Não deixe para depois o cuidado que você merece.
@@ -68,13 +92,17 @@ Botão Quero Minha Sessão. (Ancora para a seção "Vamos Agendar?")
 Meu espaço foi pensado com muito carinho para que você se sinta acolhido desde o momento em que chega.
 Cada detalhe foi planejado para proporcionar conforto e relaxamento.
 
+Foto: `project/context/raquel-seifert-massagem.jpg`
+
 ## O que dizem sobre mim
 
 Diana Varandas de Sá
 A Raquel é uma ótima profissional,  ajudou me com as minhas contracturas e consegui encontrar umas mãos que me ajudassem a relaxar. Tem um ambiente super acolhedor e relaxante. Eu tenho me sentido super bem e zero dores, recomendo cem por cento.
+Foto: `project/context/depoimento-diana-varandas-de-sa.jpg`
 
 Josaine Silva
 Excelente profissional, ambiente aconchegante e lindo! Depois que comecei com as massagens não precisei mais tomar relaxante muscular e certamente voltarei mais vezes. Mãozinhas de fada.	
+Foto: `project/context/depoimento-josaine-silva.jpg`
 
 ## Vamos Agendar?
 Cuidar de si mesmo é um gesto de amor próprio. Com as minhas massagens personalizadas, você vai sentir a diferença no corpo e na mente, ganhando mais equilíbrio e energia para encarar o dia a dia.
@@ -83,6 +111,7 @@ Não deixe para depois! Eu estou aqui para entender suas necessidades e ajudar v
 
 Botão Agenda Sessão (https://api.whatsapp.com/send?phone=351926823317)
 
+Foto: `project/context/espaco-raquel-seifert.jpg`
 
 ## Rodapé
 Raquel Seifert - Massoterapeuta

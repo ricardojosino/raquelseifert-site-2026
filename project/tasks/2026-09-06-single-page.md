@@ -14,6 +14,8 @@ description: "Desenvolvimento da página xxxx"
 title: [Elabore um título padrão]
 description: [Elabore uma descrição padrão]
 
+## Schema JSON-LD
+
 ## Seções
 
 ... DETALHAR AS SEÇÕES DA PÁGINA AQUI ...

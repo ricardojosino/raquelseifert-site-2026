@@ -9,7 +9,7 @@ import BookingSection from "./BookingSection";
 import { servicesData } from "@/data/services";
 import { testimonialsData } from "@/data/testimonials";
 
-const siteUrl = "https://raquelseifert.pt";
+const siteUrl = "https://raquelseifert.com";
 
 export const metadata: Metadata = {
   title: "Raquel Seifert | Massoterapia e Bem-Estar em Monção, Portugal",

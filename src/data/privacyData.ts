@@ -44,14 +44,14 @@ export const privacyData: PrivacyData = {
     country: "Portugal",
   },
   contacts: {
-    privacyEmail: "contacto@raquelseifert.pt",
-    supportEmail: "contacto@raquelseifert.pt",
+    privacyEmail: "contacto@raquelseifert.com",
+    supportEmail: "contacto@raquelseifert.com",
     phone: "+351 926 823 317",
     whatsappUrl: "https://api.whatsapp.com/send?phone=351926823317",
   },
   website: {
     name: "Raquel Seifert - Massoterapeuta",
-    url: "https://raquelseifert.pt",
+    url: "https://raquelseifert.com",
     lastUpdated: "Março de 2026",
   },
   businessModel: "services",

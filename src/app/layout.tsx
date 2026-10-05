@@ -22,7 +22,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://raquelseifert.pt"),
+  metadataBase: new URL("https://raquelseifert.com"),
   title: {
     default: "Raquel Seifert | Massoterapia e Bem-Estar em Monção, Portugal",
     template: "%s | Raquel Seifert Massoterapia",

@@ -22,8 +22,6 @@ function InstagramIcon({ className = "w-4 h-4" }: { className?: string }) {
 }
 
 export default function Footer() {
-  const currentYear = new Date().getFullYear();
-
   return (
     <footer className="bg-muted/80 border-t border-border mt-auto pt-16 pb-24 sm:pb-12 transition-colors">
       <div className="box-container-boxed">
@@ -87,6 +85,11 @@ export default function Footer() {
                 <a href="#agendar" className="hover:text-brand-gold transition-colors">
                   Agendar Consulta
                 </a>
+              </li>
+              <li>
+                <Link href="/privacidade" className="hover:text-brand-gold transition-colors">
+                  Política de Privacidade
+                </Link>
               </li>
             </ul>
           </div>
@@ -152,28 +155,23 @@ export default function Footer() {
           </div>
         </div>
 
-        {/* Linha inferior de direitos e privacidade */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground text-center sm:text-left">
+        {/* Linha inferior de créditos */}
+        <div className="pt-8 flex items-center justify-center text-xs text-muted-foreground text-center">
           <p className="leading-relaxed">
-            <span>© {currentYear} Raquel Seifert Massoterapeuta.</span>{" "}
-            <span className="block sm:inline mt-1 sm:mt-0">
-              Feito com{" "}
-              <Heart
-                className="w-3.5 h-3.5 text-brand-terracotta inline-block align-middle fill-brand-terracotta mx-0.5 -mt-0.5"
-                aria-hidden="true"
-              />{" "}
-              em Monção, Portugal.
-            </span>
-          </p>
-
-          <div className="flex items-center justify-center">
-            <Link
-              href="/privacidade"
-              className="hover:text-brand-gold underline underline-offset-4 transition-colors"
+            Feito com{" "}
+            <Heart
+              className="w-3.5 h-3.5 text-brand-terracotta inline-block align-middle fill-brand-terracotta mx-0.5 -mt-0.5"
+              aria-hidden="true"
+            />{" "}
+            <a
+              href="https://boxpage.pt"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-brand-gold font-medium transition-colors"
             >
-              Política de Privacidade & Cookies (RGPD)
-            </Link>
-          </div>
+              BoxPage
+            </a>
+          </p>
         </div>
       </div>
     </footer>

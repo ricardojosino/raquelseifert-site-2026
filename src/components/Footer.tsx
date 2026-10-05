@@ -25,7 +25,7 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-muted/80 border-t border-border mt-auto pt-16 pb-12 transition-colors">
+    <footer className="bg-muted/80 border-t border-border mt-auto pt-16 pb-24 sm:pb-12 transition-colors">
       <div className="box-container-boxed">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 lg:gap-12 pb-12 border-b border-border/70">
           {/* Coluna 1: Marca & Propósito */}
@@ -153,14 +153,20 @@ export default function Footer() {
         </div>
 
         {/* Linha inferior de direitos e privacidade */}
-        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground">
-          <p className="flex items-center gap-1 text-center sm:text-left">
-            <span>© {currentYear} Raquel Seifert Massoterapeuta. Feito com</span>
-            <Heart className="w-3.5 h-3.5 text-brand-terracotta inline fill-brand-terracotta" aria-hidden="true" />
-            <span>em Monção, Portugal.</span>
+        <div className="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-muted-foreground text-center sm:text-left">
+          <p className="leading-relaxed">
+            <span>© {currentYear} Raquel Seifert Massoterapeuta.</span>{" "}
+            <span className="block sm:inline mt-1 sm:mt-0">
+              Feito com{" "}
+              <Heart
+                className="w-3.5 h-3.5 text-brand-terracotta inline-block align-middle fill-brand-terracotta mx-0.5 -mt-0.5"
+                aria-hidden="true"
+              />{" "}
+              em Monção, Portugal.
+            </span>
           </p>
 
-          <div className="flex items-center gap-6">
+          <div className="flex items-center justify-center">
             <Link
               href="/privacidade"
               className="hover:text-brand-gold underline underline-offset-4 transition-colors"

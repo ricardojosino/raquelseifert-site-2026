@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { MapPin, Phone, ExternalLink, Heart } from "lucide-react";
+import { MapPin, Phone, Heart } from "lucide-react";
 
 function InstagramIcon({ className = "w-4 h-4" }: { className?: string }) {
   return (
@@ -145,7 +145,7 @@ export default function Footer() {
                 aria-label="Ver localização no Google Maps"
                 className="w-10 h-10 rounded-full border border-border bg-card flex items-center justify-center text-muted-foreground hover:text-brand-gold hover:border-brand-gold/50 transition-all hover:scale-105"
               >
-                <ExternalLink className="w-4 h-4" aria-hidden="true" />
+                <MapPin className="w-4 h-4" aria-hidden="true" />
                 <span className="sr-only">Localização no Google Maps</span>
               </a>
             </div>

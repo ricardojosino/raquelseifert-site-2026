@@ -20,7 +20,7 @@ export default function BookingSection() {
 
               <div className="space-y-3.5 text-foreground/85 text-base sm:text-lg leading-relaxed font-normal">
                 <p>
-                  Cuidar de si mesmo é um gesto fundamental de amor próprio. Com as minhas massagens personalizadas, você vai sentir a diferença imediata no corpo e na mente, conquistando mais equilíbrio, leveza e vitalidade para o seu dia a dia.
+                  Cuidar de si mesmo é um gesto fundamental de amor próprio. Com minhas massagens personalizadas, irá sentir a diferença imediata no corpo.
                 </p>
                 <p className="font-medium text-foreground">
                   Não deixe para depois! Estou pronta para compreender as suas necessidades específicas e ajudar você a alcançar o bem-estar duradouro que merece.

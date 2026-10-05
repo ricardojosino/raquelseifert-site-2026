@@ -18,7 +18,7 @@ export default function ServicesSection() {
           </h2>
 
           <p className="text-foreground/80 text-base sm:text-lg leading-relaxed">
-            Cada pessoa tem as suas próprias necessidades, e é por isso que ofereço diferentes tipos de massagens para ajudar você a se sentir renovado. Seja para relaxar depois de um dia estressante, aliviar aquela dor incômoda ou simplesmente cuidar de si, cada técnica é aplicada com técnica refinada, carinho e atenção.
+            Cada pessoa tem as suas próprias necessidades, e é por isso que ofereço diferentes tipos de massagens para ajudar sentir-se renovado. Seja para relaxar depois de um dia estressante, aliviar aquela dor incômoda ou simplesmente cuidar de si, cada técnica é aplicada de maneira refinada, com carinho e atenção.
           </p>
         </div>
 

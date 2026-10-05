@@ -7,6 +7,7 @@ import SpaceSection from "./SpaceSection";
 import TestimonialsSection from "./TestimonialsSection";
 import BookingSection from "./BookingSection";
 import { servicesData } from "@/data/services";
+import { testimonialsData } from "@/data/testimonials";
 
 const siteUrl = "https://raquelseifert.pt";
 
@@ -27,7 +28,7 @@ export const metadata: Metadata = {
     type: "website",
     images: [
       {
-        url: `${siteUrl}/images/banner-desktop.jpg`,
+        url: `${siteUrl}/images/seo/seo-raquel-seifert.jpg`,
         width: 1200,
         height: 630,
         alt: "Raquel Seifert Massoterapia e Bem-Estar em Monção",
@@ -39,7 +40,7 @@ export const metadata: Metadata = {
     title: "Raquel Seifert | Massoterapia e Bem-Estar em Monção",
     description:
       "Massagens terapêuticas personalizadas em Monção: relaxamento, drenagem linfática, pedras quentes, desportiva e integrativa.",
-    images: [`${siteUrl}/images/banner-desktop.jpg`],
+    images: [`${siteUrl}/images/seo/seo-raquel-seifert.jpg`],
   },
 };
 
@@ -49,20 +50,28 @@ export default function Home() {
     "@type": ["HealthAndBeautyBusiness", "ProfessionalService"],
     name: "Raquel Seifert - Massoterapeuta",
     description:
-      "Massagens terapêuticas personalizadas em Monção: relaxamento, drenagem linfática, pedras quentes, desportiva e integrativa. Cuidado holístico e atendimento humanizado.",
-    image: `${siteUrl}/images/bio-raquel-seifert.jpg`,
+      "Massagens terapêuticas personalizadas em Monção: relaxamento, drenagem linfática, pedras quentes, desportiva e integrativa. Agende sua sessão com Raquel Seifert.",
+    image: [
+      `${siteUrl}/images/seo/seo-raquel-seifert.jpg`,
+      `${siteUrl}/images/bio-raquel-seifert.jpg`,
+    ],
     telephone: "+351 926 823 317",
     url: siteUrl,
     address: {
       "@type": "PostalAddress",
       streetAddress: "Rua Gen. Pimenta de Castro, 38",
       addressLocality: "Monção",
+      postalCode: "4950-506",
       addressCountry: "PT",
     },
     geo: {
       "@type": "GeoCoordinates",
-      latitude: 42.0725,
-      longitude: -8.4811,
+      latitude: 42.0782736,
+      longitude: -8.4819678,
+    },
+    areaServed: {
+      "@type": "AdministrativeArea",
+      name: "Monção, Portugal",
     },
     sameAs: [
       "https://www.instagram.com/raquelseifert.massoterapeuta/",
@@ -82,6 +91,19 @@ export default function Home() {
         },
       })),
     },
+    review: testimonialsData.map((t) => ({
+      "@type": "Review",
+      author: {
+        "@type": "Person",
+        name: t.name,
+      },
+      reviewRating: {
+        "@type": "Rating",
+        ratingValue: t.rating,
+        bestRating: "5",
+      },
+      reviewBody: t.content,
+    })),
   };
 
   return (
